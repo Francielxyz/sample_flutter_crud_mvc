@@ -1,0 +1,17 @@
+- Qual significado? Onde devemos aplicar?
+    MVC, significado Model View Controller. MVC é um padrão de projeto, que separa as resposabilidades do sistema em 3.  
+    Pode ser utilizado para implementar projetos que tenham uma interação com o usuário, onde modelos são definidos, 
+    visualizações são exibidas e uma controlador intemedia a relação
+    
+– Qual motivo de tantas formas existentes e contraditórias?
+    Com o surgimento de varios frameworks mvc, alguns que não se encaixavam perfeitamente com a definição original, 
+    contribuiram para criar novos percepções para o padrão
+
+– Aplicamos corretamente? Justifique.
+    Sim, existe diversas abordagens que podem ser usadas, não necessariamente uma é errada. O mvc te, o objetivo de separar conceitos.
+
+– O que poderia ser alterado? Qual arquitetura poderia ser complementar?
+    Arquitetura em camadas, arquitetura hexagonal architecture
+
+– Faça um compilado dos tópicos estudados até hoje relacionando-os ao
+objetivo principal da disciplina – Desenvolvimento Avançado de Software.

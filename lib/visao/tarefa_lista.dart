@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_crud_mvc/controle/tarefa_conotrole.dart';
 import 'package:flutter_crud_mvc/modelo/tarefa.dart';
 
+
+
 class TarefaLista extends StatelessWidget{
   final controle = TarefaControle();
   TarefaLista({Key? key}) : super(key: key);
@@ -10,6 +12,9 @@ class TarefaLista extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(   
       appBar: AppBar(
+        // Liskov substitution principle
+        //  Aqui, passamos no parametro title um objeto da classe Text. Neste caso a classe AppBar espera receber um widget neste parametro, 
+        //  como a classe Text extende de Widget, esta é aceita como tal,.
         title: const Text('Lista Tarefas'),
         actions: [ 
           IconButton(
